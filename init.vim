@@ -5,14 +5,26 @@ call plug#begin()
 "****************************************************************************
 
 "" Plug 'morhetz/gruvbox'
-Plug 'sickill/vim-monokai' 
+"" Plug  'sickill/vim-monokai'  
+Plug 'crusoexia/vim-monokai'
+Plug 'tpope/vim-markdown' 
+Plug 'tpope/vim-markdown' 
 
 call plug#end()
-
+"********************************************************************
+"" Visual Settings
+"********************************************************************
 colorscheme monokai
-set background=dark
+set termguicolors
+let g:monokai_term_italic = 1
+let g:monokai_gui_italic = 1
 
+"" Enable hidden buffers
 set hidden
+
+
 set number
 set relativenumber
 set inccommand=split
+
+
