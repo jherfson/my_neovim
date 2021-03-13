@@ -9,6 +9,7 @@ call plug#begin()
 Plug 'crusoexia/vim-monokai'
 Plug 'tpope/vim-markdown' 
 Plug 'tpope/vim-markdown' 
+Plug 'itchyny/lightline.vim'
 
 call plug#end()
 "********************************************************************
