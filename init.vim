@@ -10,8 +10,13 @@ Plug 'crusoexia/vim-monokai'
 Plug 'tpope/vim-markdown' 
 Plug 'itchyny/lightline.vim'
 
-"" python
+"" Python
 Plug 'davidhalter/jedi-vim'
+
+"" Julia
+""Plugin  'JuliaEditorSupport/deoplete-julia' 
+
+
 call plug#end()
 "****************************************************************************
 "" Visual Settings
