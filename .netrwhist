@@ -1,10 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/jherfson'
-let g:netrw_dirhist_2='/home/jherfson/.config'
-let g:netrw_dirhist_3='/home/jherfson/.config/nvim'
-let g:netrw_dirhist_4='/home/jherfson/.config/nvim/plugged/vim-monokai'
-let g:netrw_dirhist_5='/home/jherfson/.config/nvim'
-let g:netrw_dirhist_6='/home/jherfson/.config'
-let g:netrw_dirhist_7='/home/jherfson/.config/nvim'
-let g:netrw_dirhist_8='/home/jherfson/Dropbox/Research_Jherfson/_difração/Diffraction'
+let g:netrw_dirhist_2='/home/jherfson/anaconda3/pkgs/pymatgen-2022.0.3-py39h1a9c180_0/lib/python3.9/site-packages'
+let g:netrw_dirhist_3='/home/jherfson/anaconda3/pkgs/pymatgen-2022.0.3-py39h1a9c180_0/lib/python3.9/site-packages/pymatgen-2022.0.3.dist-info'
+let g:netrw_dirhist_4='/home/jherfson/anaconda3/pkgs/pymatgen-2022.0.3-py39h1a9c180_0/lib/python3.9/site-packages'
+let g:netrw_dirhist_5='/home/jherfson/anaconda3/pkgs/pymatgen-2022.0.3-py39h1a9c180_0/lib/python3.9/site-packages/pymatgen'
+let g:netrw_dirhist_6='/home/jherfson/anaconda3/pkgs/pymatgen-2022.0.3-py39h1a9c180_0/lib/python3.9/site-packages/pymatgen/core'

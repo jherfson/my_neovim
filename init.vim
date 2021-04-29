@@ -13,9 +13,15 @@ Plug 'itchyny/lightline.vim'
 "" Python
 Plug 'davidhalter/jedi-vim'
 
+"" Auto Complete Python
+""Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+
+Plug 'zchee/deoplete-jedi'
 "" Julia
 ""Plugin  'JuliaEditorSupport/deoplete-julia' 
 
+""Emmet-vim
+Plug 'mattn/emmet-vim' 
 
 call plug#end()
 "****************************************************************************
@@ -38,3 +44,8 @@ set inccommand=split
 let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
 let g:markdown_syntax_conceal = 0
 let g:markdown_minlines = 100
+
+"***************************************************************************
+"" Auto Complete python Setting
+"***************************************************************************
+let g:deoplete#enable_at_startup = 1
