@@ -4,11 +4,32 @@ call plug#begin()
 "" Plug install packages
 "****************************************************************************
 
+"" Vim Airline
+Plug 'vim-airline/vim-airline'
+
+"" Vim Devicons
+Plug 'ryanoasis/vim-devicons'
+
+"" NERDTree Syntax Highlight
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+
+"" Vim IndentGuides 
+Plug 'thaerkh/vim-indentguides'
+
+"" Lexima.vim 
+Plug 'cohama/lexima.vim'
+
 "" Plug 'morhetz/gruvbox'
 "" Plug  'sickill/vim-monokai'  
 Plug 'crusoexia/vim-monokai'
 Plug 'tpope/vim-markdown' 
 Plug 'itchyny/lightline.vim'
+
+"" Theme dalton
+Plug 'edersonferreira/dalton-vim'
+
+"" ALE
+Plug 'dense-analysis/ale'
 
 "" Python
 Plug 'davidhalter/jedi-vim'
@@ -20,10 +41,56 @@ Plug 'zchee/deoplete-jedi'
 "" Julia
 ""Plugin  'JuliaEditorSupport/deoplete-julia' 
 
-""Emmet-vim
+"" Emmet-vim
 Plug 'mattn/emmet-vim' 
 
+"" NERDtree 
+Plug 'preservim/nerdtree'
+
+"" Vim Polyglot
+Plug 'sheerun/vim-polyglot'
+
 call plug#end()
+
+""***************************************************************************
+"" Vim Airline
+""***************************************************************************
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#show_buffers = 1
+let g:airline#extensions#tabline#switch_buffers_and_tabs = 1
+let g:airline#extensions#tabline#tab_nr_type = 1
+let g:airline_theme='dalton'
+
+""***************************************************************************
+"" Theme Dalton
+""***************************************************************************
+color dalton
+
+""***************************************************************************
+"" NERDtree
+""***************************************************************************
+nnoremap <C-n> :NERDTreeToggle<CR>
+
+""***************************************************************************
+"" Vim IndentGuides 
+""***************************************************************************
+" Configurações do Vim IndentGuides
+
+let g:indentguides_spacechar = '▏'
+let g:indentguides_tabchar = '▏'
+
+" Fim das configurações do Vim IndentGuides 
+
+""***************************************************************************
+"" lexima.vim
+""***************************************************************************
+" Configurações do lexima.vim
+
+let g:indentguides_spacechar = '▏'
+let g:indentguides_tabchar = '▏'
+
+" Fim das configurações do lexima.vim
+
 "****************************************************************************
 "" Visual Settings
 "****************************************************************************
