@@ -9,6 +9,9 @@ $ sudo apt install neovim
 ```
 $ git clone https://github.com/jherfson/my_neovim.git 
 ```
+```
+mkdir ~/.config/nvim
+```
 
 ```
 :PlugInstall
